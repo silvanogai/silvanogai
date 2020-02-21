@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+title: Silvano Gai's Blog
+author: Silvano Gai
+email: 
+description: > # this means to ignore newlines until "show_exerpts:"
+        What is on my mind about Technology and in particular Networking
+show_excerpts: true # set to true to show excerpts on the homepage
+#baseurl: /
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Silvano Gai's Blog
+  tagline: What is on my mind about Technology and in particular Networking
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: true
+  showPicker: false
+  disqus_shortname: silvanogai-github-io 
+
+  # generate social links in footer
+  social_links:
+    twitter: 
+    github: 
+    linkedIn: 
+    rss: /feed.xml
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - pages/about.html
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+=======
+theme: jekyll-theme-cayman
+>>>>>>> b7006e46b28c48bbf37ba1f782934109c2871f5a
