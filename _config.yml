@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: Silvano Gai's Blog
 author: Silvano Gai
 email: 
@@ -40,3 +41,6 @@ texture:
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+=======
+theme: jekyll-theme-cayman
+>>>>>>> b7006e46b28c48bbf37ba1f782934109c2871f5a
