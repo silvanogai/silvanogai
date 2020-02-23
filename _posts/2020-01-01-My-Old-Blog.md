@@ -10,4 +10,4 @@ With 2020 I switched from WordPress to GitHub, but [my old blog is still there.]
 
 ![Old Project Logo](/assets/images/project-logo.jpg)
 
-
+[My website is still here.](https://www.ip6.com)
