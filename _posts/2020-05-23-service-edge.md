@@ -2,7 +2,7 @@
 layout: post
 comments: true
 # Published tag, if true, remove post from the list in the site, but you can access directly from URL
-draft: true
+draft: false
 author: Silvano Gai and Mario Baldi
 title:  Services at the edge?
 excerpt: Silvano Gai and Mario Baldi point of view
@@ -42,11 +42,9 @@ The problems discussed above are only going to get worse for several reasons:
 
 # The solution
 
-The only realistic way of addressing the growing challenges in providing services on East-West traffic is to implement such services, in a *distributed* fashion, at the *edge*, i.e., at the border between the network and the hosts. Services need to be applied before the packet enters a leaf switch, or immediately after it exits a leaf switch. Today’s edge speed is 25 Gbps for enterprise networks and 100 Gbps for cloud providers. State of the art technology enables services to achieve such capacity, especially when executing over domain-specific hardware.
+The only realistic way of addressing the growing challenges in providing services on East-West traffic is to implement such services, in a *distributed* fashion, at the *edge*, i.e., at the border between the network and the hosts. Services need to be applied before the packet enters a leaf switch, or immediately after it exits a leaf switch. Today’s edge speed is 25 Gbps for enterprise networks and 100 Gbps for cloud providers. State of the art technology enables services to achieve such capacity, especially when executing over [domain-specific hardware.](https://silvanogai.github.io/posts/pendulum/)
 
 Let’s consider where best  domain-specific hardware and the corresponding services can be hosted at the edge. The data center edge is composed of three elements: the Network Interface Card (NIC) on the host, the wire between the NIC and a port of a leaf switch, and the port on the leaf switch. Conceptually domain-specific hardware can be hosted in any of these three elements: in the NIC, as a bump-in-the-wire, or in the switch.
-
-The bump in the wire solution is not practical as it would require the addition of new devices in racks to be put in-line (i.e., on the wire) between hosts and leave switches, which would take away valuable real estate for revenue generating compute.
 
 Currently the best solution seems to be hosting the domain-specific hardware on a host PCIe slot. This requires such domain specific hardware to have a small enough footprint to be able to fit there and especially a power consumption not exceeding 25-30 W, which is the maximum value acceptable by many PCIe slots on commercial servers. It does not take away any valuable real estate, since that PCIe slot would have anyway been occupied by a regular NIC.
 This has also the added bonus advantage of providing services that by definition require PCIe access, such as offloads of RDMA (Remote Direct Memory Access) and storage (e.g., Non-Volatile Memory express over Fabric or NVMe-oF).
