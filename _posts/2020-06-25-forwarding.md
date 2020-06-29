@@ -3,7 +3,7 @@ layout: post
 comments: true
 author: Silvano Gai
 title:  A chat about forwarding
-excerpt: Silvano Gai chat with Mario Baldi about packet forwarding
+excerpt: Silvano Gai chats with Mario Baldi about packet forwarding
 description: An chat with Mario Baldi
 date: 2020-06-28
 ---
