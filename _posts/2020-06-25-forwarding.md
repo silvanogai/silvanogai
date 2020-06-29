@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-draft: true
 author: Silvano Gai
 title:  A chat about forwarding
 excerpt: Silvano Gai chat with Mario Baldi about packet forwarding
 description: An chat with Mario Baldi
+date: 2020-06-28
 ---
 
 Techniques and algorithms to forward packets have been a topic of discussion since the eighties. In this podcast, I chat with [Mario Baldi](https://www.linkedin.com/in/mario-baldi/) about forwarding. Mario has also his own blog at [https://blog.baldi.info/](https://blog.baldi.info/)
@@ -19,7 +19,7 @@ We informally cover:
 * Combining forwarding with ACLs
 * Flow cache based forwarding
 * Forwarding in routers and NICs
-* Label-based Forwarding
+* Label-based forwarding
 * Segment routing
 
 
