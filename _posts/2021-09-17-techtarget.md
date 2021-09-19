@@ -12,8 +12,8 @@ draft: true
 
 This interview is posted [here](https://www.techtarget.com/searchnetworking/feature/How-smartNIC-architecture-supports-scalable-infrastructure).
 
-With the occasion, TechTarget also published an excerpt from my book ['Building a Future-Proof Cloud Infrastructure'](https://www.informit.com/store/building-a-future-proof-cloud-infrastructure-a-unified-9780136624097?utm_source=pensando&utm_medium=website&utm_campaign=bookad)) that looks at how smartNICs can support distributed services platforms for both cloud providers and enterprises.
-
-![Book Cover](/assets/images/book-cover.jpg)
+With the occasion, TechTarget also published an excerpt from my book ['Building a Future-Proof Cloud Infrastructure'](https://www.informit.com/store/building-a-future-proof-cloud-infrastructure-a-unified-9780136624097?utm_source=pensando&utm_medium=website&utm_campaign=bookad) that looks at how smartNICs can support distributed services platforms for both cloud providers and enterprises.
 
 I hope you will enjoy it!
+
+![Book Cover](/assets/images/book-cover.jpg)
