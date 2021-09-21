@@ -5,7 +5,7 @@ author: Silvano Gai
 title: Jennifer English interviews Silvano
 excerpt: A pointer to an interview with TechTarget
 description: A chat with Jennifer English
-draft: true
+date: 2021-09-20
 ---
 
 [Jennifer English](https://www.techtarget.com/contributor/Jennifer-English) is senior site editor for SearchNetworking at [TechTarget](https://www.techtarget.com). She interviewed me, and we chatted about **How smartNIC architecture supports scalable infrastructure**.
